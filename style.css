@@ -1,0 +1,21 @@
+.searchBar {
+  width: 50%;
+  height: 100%;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.table{
+  margin-top: 30px;
+}
+
+.panel {
+  background: #323232;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.glyphicon {
+  font-size: 10px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stock Tracker</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Home Section -->
+
+      <div class="container">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h1>Stock Tracker</h1>
+          </div>
+        </div>
+
+        <form class="search">
+          <input type="text" class="searchBar">
+        </form>
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Exchange</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="stocks">
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Symbol</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Last Price</th>
+              </tr>
+            </thead>
+            <tbody class="render-stocks">
+
+            </tbody>
+          </table>
+        </div>
+      </div><!-- /.container -->
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
